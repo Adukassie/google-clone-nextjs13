@@ -1,6 +1,7 @@
- import HomeHeader from "@/components/HomeHeader";
- import HomeSearch from "@/components/HomeSearch";
- import Image from "next/image";
+import Footer from "@/components/Footer";
+import HomeHeader from "@/components/HomeHeader";
+import HomeSearch from "@/components/HomeSearch";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -13,12 +14,14 @@ export default function Home() {
         <Image
           width="300"
           height="100"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png" alt="logo"
-        /> 
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png"
+          alt="logo"
+        />
 
-         <HomeSearch/>
+        <HomeSearch />
+        {/* Footer */}
+        <Footer />
       </div>
     </>
   );
 }
-
